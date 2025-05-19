@@ -1,0 +1,306 @@
+.colore-grigio{
+  background-color: #ececec;
+}
+
+
+
+.navbar {
+    background-color:  white;
+    width: 100%;
+    height: 15vh;
+}
+
+.logo{
+    text-align: center;
+}
+.logo-img{
+    width: 150px;
+
+}
+
+.lista{
+    list-style: none; 
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: gray
+}
+
+
+
+.titolo{
+    font-size: 50px;
+    text-align: center;
+    color: darkred;
+    letter-spacing: 10vh;
+}
+
+.sfondo1{
+    background: linear-gradient(rgb(255, 255, 255),rgba(255,255,255,0.3)),  url(immagini/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+main{
+    background-image: url(immagini/mountains2.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.mountains2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contenitore-sez1{
+    background-color: rgb(232, 229, 229);
+    position: relative;
+    margin-top: -50px;
+}
+
+.title{
+    color: darkred;
+    font-size: 20px;
+}
+
+
+
+
+
+.rajdhani-light {
+    font-family: "Rajdhani", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rajdhani-regular {
+    font-family: "Rajdhani", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rajdhani-medium {
+    font-family: "Rajdhani", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rajdhani-semibold {
+    font-family: "Rajdhani", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .rajdhani-bold {
+    font-family: "Rajdhani", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .nova-square-regular {
+    color: darkred;
+    font-family: "Nova Square", serif;
+    font-weight: 15px;
+    font-style: normal;
+    font-size: 50px;
+  }
+
+  /* Seconda sezione */
+
+  .contenitore-sez2{
+    background-color: rgb(232, 229, 229);
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+
+  .box-card{
+    width:240px;
+  }
+    
+  .border-bt-red{
+    border-bottom: 3px solid red;
+  }
+
+  .circle-red{
+    background-color: rgb(255,254,254);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    border: 1px solid red;
+  }
+
+  .icona{
+    color: darkred;
+    height: 30px;
+    width: 40px;
+    margin-top: 4px;
+  }
+
+  .contenitore-sez3{
+    background-color: rgb(232, 229, 229);
+    height: 300px;
+    display: flex;
+    align-items: end;
+  }
+
+  h3{
+    color: darkred;
+    top: -25px;
+    position: relative;
+  }
+
+  .contenitore-sez4{
+    background-color: rgb(232, 229, 229);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .pulsante{
+    border: 1px solid darkred;
+    background-color: darkred;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+  }
+
+  a{
+    color: white;
+  }
+
+  .titolo-sezioni{
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
+
+  .contenitore-sez5{
+    border-left: 2px solid red;
+    margin-left: 40px;
+    position: relative;
+  }
+
+  h5{
+    color: darkred;
+  }
+
+  .articolo1{
+    width: 100vh;
+    margin-left: 40px;
+    top: -0px;
+    position: relative;
+  }
+
+  .circle-red1{
+    background-color: rgb(255,254,254);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    left: -11px;
+    border: 1px solid red;
+  }
+
+  .single{
+    position: absolute;
+    z-index: -1;
+    margin-top: 150px;
+    right: 1mm;
+    bottom: -3%;
+  }
+
+  .position-single{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+  .bk-grey{
+    background-color: rgb(232, 229, 229);
+    height: 80vh;
+  }
+
+  .fog{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 2px solid red;
+  }
+
+  .paragrafo-sezionesei{
+    margin-top: -5px;
+    font-size: 13px;
+  }
+
+  h6{
+    color: darkred;
+  }
+
+  svg{
+    color: darkred;
+  }
+
+  .our-benefit{
+    margin-left: -15px;
+  }
+
+  .mountain-5473{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 5px;
+  }
+
+  .mountain-97{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid red;
+    padding: 5px;
+  }
+
+  .colonna1{
+    order:2;
+  }
+
+  .bk-grey1{
+    background-color: rgb(232, 229, 229);
+    width: 100%;
+    height: 300px;
+    display: flex;
+  }
+
+  .other.img{
+    width: 100%;
+  }
+
+  .bg-red-footer{
+    background-color: rgb(141, 4, 4);
+    height: 250px;
+    width: 100%;
+  }
+
+  .testo-bianco{
+    color: white;
+  }
+
+  
+    
+    
+
+
+  
